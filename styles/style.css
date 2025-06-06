@@ -164,3 +164,7 @@ ul {
   color: #838383;
   margin-top: auto;
 }
+
+.events * {
+  outline: 1px solid red;
+}
