@@ -298,47 +298,51 @@ ul {
   margin: 0;
 }
 
+.membership * {
+}
+
 .membership {
-  /* padding: 100px 0 140px; */
-  /* background-color: #057bf2; */
-  /* color: #ffffff; */
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
 }
 
 .membership__title {
-  /* max-width: 574px; */
-  /* margin: 0 auto; */
-  /* text-align: center; */
-  /* font-size: 44px; */
-  /* font-weight: 500; */
-  /* line-height: 52px; */
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
 }
 
 .membership__steps {
-  /* list-style-type: none; */
-  /* padding: 0; */
-  /* margin: 100px 0 0; */
-  /* Agrega estilos */
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
 }
 
 .step {
-  /* Agrega estilos */
-}
+  flex-basis: 220px;
 
 .step__title {
-  /* margin: 0; */
-  /* font-size: 20px; */
-  /* line-height: 30px; */
-  /* font-weight: 700; */
-  /* display: flex; */
-  /* align-items: center; */
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
 }
 
 .step__icon {
-  /* margin-left: 20px; */
+  margin-left: 20px;
 }
 
 .step__description {
-  /* margin: 10px 0 0; */
+  margin: 10px 0 0;
 }
 
 .footer {
